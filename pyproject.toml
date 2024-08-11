@@ -1,0 +1,17 @@
+[project]
+name = "django-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "otaki0413", email = "takida0413@gmail.com" }
+]
+dependencies = [
+    "django>=5.1",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
